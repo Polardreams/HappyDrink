@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/assi_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/assisstent_titel" />
+
+    <EditText
+        android:id="@+id/assi_ed_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/assisstent_txt_hint_alter"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/assi_ed_weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/assisstent_txt_hint_gewicht"
+        android:inputType="number" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="102dip">
+
+        <RadioButton
+            android:id="@+id/assi_radio_man"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="@string/assisstent_radio_mann" />
+
+        <RadioButton
+            android:id="@+id/assi_radio_woman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/assisstent_radio_woman" />
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/assisstent_alkabbau_txt" />
+
+        <com.jaygoo.widget.RangeSeekBar
+            android:id="@+id/seekbar_alkabbau"
+            android:layout_width="wrap_content"
+            android:layout_height="61dp"
+
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="8dp"
+            android:saveEnabled="false"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/seekbar_menge"
+
+            app:rsb_indicator_height="20dip"
+            app:rsb_indicator_text_size="18dip"
+            app:rsb_max="0.21"
+            app:rsb_min="0.1"
+            app:rsb_mode="single"
+            app:rsb_thumb_size="20dip"
+            app:rsb_tick_mark_mode="number"
+            app:rsb_tick_mark_text_array="@array/assi_alkabbau"
+
+            />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButton1"
+                android:layout_width="90dip"
+                android:layout_height="90dip"
+                android:layout_weight="1"
+                android:background="@mipmap/getraenkebutton"
+                android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="90dip"
+                android:layout_height="90dip"
+                android:background="@mipmap/getraenkebutton1" />
+
+            <RadioButton
+                android:id="@+id/radioButton3"
+                android:layout_width="90dip"
+                android:layout_height="90dip"
+                android:layout_weight="1"
+                android:background="@mipmap/getraenkebutton2"
+
+                />
+
+        </RadioGroup>
+
+        <Button
+        android:id="@+id/assi_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/allg_btn_ok" />
+    </LinearLayout>
+    </ScrollView>
+    </LinearLayout>

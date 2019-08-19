@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="drinkamount">
+        <item>20</item>
+        <item>200</item>
+        <item>330</item>
+        <item>500</item>
+    </string-array>
+
+    <string-array name="markArray">
+        <item>2.5</item>
+        <item>12</item>
+        <item>20</item>
+        <item>40</item>
+        <item>60</item>
+        <item>80</item>
+    </string-array>
+
+    <string-array name="assi_alkabbau">
+        <item>0 </item>
+        <item>0.1 </item>
+        <item>0.15</item>
+        <item>0.20</item>
+    </string-array>
+
+    <array name="drawable_array">
+        <item>@drawable/fab_btn_wein</item>
+        <item>@drawable/fab_btn_bier</item>
+        <item>@drawable/fab_btn_likoer</item>
+        <item>@drawable/fab_btn_schnaps</item>
+    </array>
+
+</resources>

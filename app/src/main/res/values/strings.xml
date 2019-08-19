@@ -1,0 +1,393 @@
+<resources>
+    <string name="app_name">HappyDrink</string>
+
+    <string name="assisstent_titel">persönliche Angaben zur Berechnung</string>
+
+    <string name="assisstent_alter">Dein Alter</string>
+    <string name="assisstent_gewicht">Dein Gewicht</string>
+
+    <string name="assisstent_geschlecht">Dein Geschlecht</string>
+
+    <string name="assisstent_alkabbau_txt">Schätze wie schnell dein Körper Alkohol abbauen kann. Für gewöhnlich bauen Frauen bis zu 0.1 Promille pro Stunde ab. Männer können bis zu 0.2 Promille pro Stunde abbauen.</string>
+
+    <string-array name="sex_id">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="sex_title">
+        <item>Mann</item>
+        <item>Frau</item>
+    </string-array>
+
+    <string name="assisstent_status">Dein Status</string>
+
+    <string name="assisstent_txt_hint_alter">Schreib hier dein Alter rein</string>
+    <string name="assisstent_txt_hint_gewicht">Schreib hier dein Gewicht rein</string>
+    <string name="assisstent_radio_mann">Mann</string>
+    <string name="assisstent_radio_woman">Frau</string>
+
+    <string name="allg_btn_ok">OK</string>
+    <string name="lizenz_btn_ok">OK</string>
+
+    <string name="assisstent_error_weight">Fehler! Bitte trage dein Gewicht in ganzen Zahlen ein.</string>
+    <string name="assisstent_error_age">Fehler! Bitte trage dein Alter in ganzen Zahlen ein.</string>
+
+    <string name="display_anz">GETRÄNKE</string>
+    <string name="display_g">Kcal</string>
+    <string name="display_promille">PROMILLE</string>
+
+    <string name="display_regler_einheit_menge">ml</string>
+    <string name="display_regler_einheit_alk">%</string>
+
+    <string name="counter_create_file">Verzeichnis angelegt zum Speichern.</string>
+    <string name="counter_save_successful">Deine Aktualisierung wurde gespeichert.</string>
+    <string name="counter_save_successful_end">Deine Party wurde beendet.</string>
+    <string name="counter_save_error">Bei deiner Aktualisierung ist ein Fehler passiert!</string>
+    <string name="counter_load_error">Letzte Party konnte nicht geladen werden.</string>
+
+    <string name="menu_partyover_txt_text">Möchtest Du wirklich eine neue Party erstellen?</string>
+    <string name="menu_partyover_back">Zurück</string>
+    <string name="menu_partyover_titel">Neue Party</string>
+    <string name="menu_partyover_new_btn">Neue Party</string>
+
+    <string name="sweetDialog_anz_title">Anzahl der Getraenke</string>
+    <string name="sweetDialog_alkg_title">Alkoholkalorien</string>
+    <string name="sweetDialog_promille_title">Promillewert</string>
+
+    <string name="sweetDialog_anz">Hier siehst Du die Anzahl deiner Getränke.</string>
+    <string name="sweetDialog_alkg">Hier siehst Du die Menge an Kalorien, die Du allein durch Alkohol zu Dir nimmst.</string>
+    <string name="sweetDialog_promille">Die theoretische Blutalkoholkonzentration (BAK in Promille), ist nur ein hypotehtischer Wert und entspricht nicht deiner tatsächlichen BAK.</string>
+
+    <string name="menu_pers">Dein Profil ändern</string>
+    <string name="menu_lizenz">Lizenz</string>
+    <string name="menu_akt">Aktualisieren</string>
+    <string name="menu_verlauf">Verlauf</string>
+    <string name="menu_tutorial">Tutorial</string>
+    <string name="menu_nachtrag">Ab wann hast Du getrunken?</string>
+    <string name="menu_lexika">HappyDrink - Magazin</string>
+    <string name="menu_datenschutz">Hinweis zur Datenerhebung</string>
+
+
+
+    <string name="menu_lizenz_txt">HappyDrink V 2.2.1 \n\n Ein Dank an: \n\n\n
+
+lzyzsd für CircleProgress - Bibliothek {ohne Lizenzangabe,
+https://github.com/lzyzsd/CircleProgress/blob/master/README.md}\n\n
+
+Jay-Goo für RangeSeekBar - Bibliothek {Apache License Version 2.0, January 2004,
+https://github.com/Jay-Goo/RangeSeekBar/blob/master/LICENSE}\n\n
+
+pedant für sweet-alert-dialog - Bibliothek {The MIT License (MIT) Copyright (c) 2014 Pedant(http://pedant.cn),
+https://github.com/pedant/sweet-alert-dialog}\n\n
+
+uin3566 für AllAngleExpandableButton - Bibliothek {Apache License, Version 2.0 (the "License”),
+https://github.com/uin3566/AllAngleExpandableButton}\n\n
+
+KeepSafe für TapTargetView - Bibliothek {Apache License, Version 2.0 (the "License"),
+https://github.com/KeepSafe/TapTargetView}\n\n
+
+matthewrkula - Text im Splashscreen {Apache License, Version 2.0 (the "License"),
+https://github.com/matthewrkula/SecretTextView/blob/master/README.md}\n\n
+
+renjianan für RecyclerBanner - Code {Apache License, Version 2.0 (the "License"),
+https://github.com/renjianan/RecyclerBanner}
+
+jasonpolites für gesture-imageview - Code {Apache License, Version 2.0 (the "License"),
+https://github.com/jasonpolites/gesture-imageview}
+
+bumptech für glide - Bibliothek {BSD, part MIT and Apache License 2.0,
+https://github.com/bumptech/glide}
+
+deano2390 für FlowTextView - Bibliothek {Apache License, Version 2.0 (the "License"),
+https://github.com/deano2390/FlowTextView}
+
+---
+
+Bildquellen - Magazin:
+
+!nicht aufgeführte Bilder entstammen der Eigenproduktion.
+
+alkoholische Cocktails = https://www.google.de/imgres?imgurl=https%3A%2F%2Fimage.stern.de%2F7272754%2Funcropped-0-0%2Fbcd21965d9861e6b9eee4d899bf56%2Flv%2Fcocktails.jpg&amp;imgrefurl=https%3A%2F%2Fwww.stern.de%2Fgenuss%2Ftrinken%2Fstammtisch%2Famaretto-sour--bramble-und-co--die-angesagtesten-cocktails-der-welt-7272752.html&amp;docid=7OzCeak5vZw7MM&amp;tbnid=ovdlTumoOYsWmM%3A&amp;vet=10ahUKEwj6laSPrLveAhVSM-wKHTA5C1oQMwhLKAwwDA..i&amp;w=2000&amp;h=1325&amp;bih=931&amp;biw=1920&amp;q=frontal%20lange%20Cocktailbar&amp;ved=0ahUKEwj6laSPrLveAhVSM-wKHTA5C1oQMwhLKAwwDA&amp;iact=mrc&amp;uact=8#h=1325&amp;imgdii=ovdlTumoOYsWmM:&amp;vet=10ahUKEwj6laSPrLveAhVSM-wKHTA5C1oQMwhLKAwwDA..i&amp;w=2000
+
+trinkender Mann = https://www.google.de/imgres?imgurl=http%3A%2F%2Fwww.haz.de%2Fvar%2Fstorage%2Fimages%2Fhaz%2Fnachrichten%2Fmedien%2Ffernsehen%2Fdie-arte-dokumentation-trinkweltmeister-europa-zeigt-die-folgen-von-alkohol%2F390958899-1-ger-DE%2FSo-gefaehrlich-kann-Alkohol-sein_master_reference.jpg&amp;imgrefurl=http%3A%2F%2Fwww.haz.de%2FNachrichten%2FMedien%2FFernsehen%2FDie-Arte-Dokumentation-Trinkweltmeister-Europa-zeigt-die-Folgen-von-Alkohol&amp;docid=Xx0v8fUY_W55mM&amp;tbnid=li7qWLvcs_t1UM%3A&amp;vet=12ahUKEwjmo-CPwrveAhUQmrQKHREwBxw4ZBAzKDMwM3oECAEQNA..i&amp;w=1920&amp;h=1277&amp;bih=931&amp;biw=1920&amp;q=Alkoholabh%C3%A4ngig&amp;ved=2ahUKEwjmo-CPwrveAhUQmrQKHREwBxw4ZBAzKDMwM3oECAEQNA&amp;iact=mrc&amp;uact=8
+
+Holzfässer = https://www.google.de/imgres?imgurl=https%3A%2F%2Fwww.past-programm.com%2Fwp-content%2Fuploads%2F2018%2F02%2Fshutterstock_307348394Kishivan-2000x1200.jpg&amp;imgrefurl=https%3A%2F%2Fwww.past-programm.com%2Fcategory%2Fallgemein%2F&amp;docid=3hHlVDlqY59gsM&amp;tbnid=C1ZAWds3xXtUQM%3A&amp;vet=10ahUKEwjaiPr2wbveAhXMLFAKHSLqD_QQMwiaAShPME8..i&amp;w=2000&amp;h=1200&amp;bih=931&amp;biw=1920&amp;q=Alkoholabh%C3%A4ngig&amp;ved=0ahUKEwjaiPr2wbveAhXMLFAKHSLqD_QQMwiaAShPME8&amp;iact=mrc&amp;uact=8
+
+Krankenwagen = https://www.google.de/imgres?imgurl=https%3A%2F%2Fwww.pnn.de%2Fimages%2Fbild-radbolzen-von-krankenwagen-geloest%2F21463434%2F3-format43.jpg&amp;imgrefurl=https%3A%2F%2Fwww.pnn.de%2Fpotsdam-mittelmark%2Fwerder-havel-radbolzen-von-krankenwagen-geloest%2F21463436.html&amp;docid=Si19wOjE9uoowM&amp;tbnid=nfsszaxiEjoObM%3A&amp;vet=10ahUKEwjCuq3Ow7veAhVEPVAKHaGQBtAQMwh5KC0wLQ..i&amp;w=4542&amp;h=2919&amp;itg=1&amp;bih=931&amp;biw=1920&amp;q=Krankenwagen&amp;ved=0ahUKEwjCuq3Ow7veAhVEPVAKHaGQBtAQMwh5KC0wLQ&amp;iact=mrc&amp;uact=8
+
+Schwangere Frau auf Bett = https://www.t-online.de/leben/familie/schwangerschaft/id_75284310/wie-sich-brueste-durch-die-schwangerschaft-veraendern.html
+
+Mann der ein Bier trinkt = https://www.t-online.de/gesundheit/krankheiten-symptome/id_70473380/alkoholismus-ab-wann-ist-man-alkoholiker-.html
+
+Alter Mann mit Sanduhr = https://www.google.de/imgres?imgurl=https%3A%2F%2Fpictures.abebooks.com%2F47551N%2F16009616071.jpg&amp;imgrefurl=https%3A%2F%2Fwww.zvab.com%2Fbuch-suchen%2Ftitel%2Fdu-guter-alter-mann%2F&amp;docid=NohZ3F5-0ILgqM&amp;tbnid=0bXgTBe0FIszxM%3A&amp;vet=12ahUKEwjwp6SIzrveAhUBLFAKHdt3A-U4ZBAzKA0wDXoECAEQDg..i&amp;w=1630&amp;h=1337&amp;itg=1&amp;bih=931&amp;biw=1920&amp;q=Alter%20Mann&amp;ved=2ahUKEwjwp6SIzrveAhUBLFAKHdt3A-U4ZBAzKA0wDXoECAEQDg&amp;iact=mrc&amp;uact=8#h=1337&amp;imgdii=0bXgTBe0FIszxM:&amp;vet=12ahUKEwjwp6SIzrveAhUBLFAKHdt3A-U4ZBAzKA0wDXoECAEQDg..i&amp;w=1630
+
+
+Schlüssel im Cocktailglas = https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.fahrschule-online.de%2Ffm%2F5074%2FFotolia_33308307_Subscription_XL.jpg&amp;imgrefurl=https%3A%2F%2Fwww.fahrschule-online.de%2Fbetrunken-am-steuer-das-sind-die-strafen-1790176.html&amp;docid=RERZoIM1yxNUwM&amp;tbnid=xW8mvzELuPdrLM%3A&amp;vet=10ahUKEwj68cbUptreAhXSPOwKHS7UB4cQMwiDASg4MDg..i&amp;w=3888&amp;h=2592&amp;client=firefox-b&amp;bih=944&amp;biw=1920&amp;q=Alkohol%20und%20Nicht%20Alkohol&amp;ved=0ahUKEwj68cbUptreAhXSPOwKHS7UB4cQMwiDASg4MDg&amp;iact=mrc&amp;uact=8
+
+Weinglas und Schwangere Frau = https://www.google.de/imgres?imgurl=https%3A%2F%2Fwww.aerzteblatt.de%2Fbilder%2F2017%2F08%2Fimg137401620.jpg&amp;imgrefurl=https%3A%2F%2Fwww.aerzteblatt.de%2Fnachrichten%2F97648%2FExperten-warnen-vor-Alkohol-in-der-Schwangerschaft&amp;docid=SU_YPD1pWvL36M&amp;tbnid=TnTIVFidgTFejM%3A&amp;vet=10ahUKEwjcos_fmNzeAhUKPVAKHWg7CHoQMwh9KDIwMg..i&amp;w=2240&amp;h=1200&amp;bih=931&amp;biw=1920&amp;q=alkohol%20w%C3%A4hrend%20der%20schwangerschaft&amp;ved=0ahUKEwjcos_fmNzeAhUKPVAKHWg7CHoQMwh9KDIwMg&amp;iact=mrc&amp;uact=8
+
+gelangweilte Partygäste = https://www.google.de/imgres?imgurl=https%3A%2F%2Fwww.myprintcard.de%2F_tc%2F2823288-DD3319%2Fw%3D986%2Fj%2Fpartygaeste.jpg&amp;imgrefurl=https%3A%2F%2Fwww.myprintcard.de%2Fmagazin%2Fnotfallplan-fuer-partys-so-kommen-die-gaeste-garantiert-in-stimmung-2823288&amp;docid=bxNHoPm2EqLCpM&amp;tbnid=GIHsKqgtwtafUM%3A&amp;vet=10ahUKEwiHgN6X193eAhUHCewKHd53ASYQMwhAKAIwAg..i&amp;w=986&amp;h=657&amp;bih=931&amp;biw=1920&amp;q=Langeweile%20auf%20Party&amp;ved=0ahUKEwiHgN6X193eAhUHCewKHd53ASYQMwhAKAIwAg&amp;iact=mrc&amp;uact=8#h=657&amp;imgdii=GIHsKqgtwtafUM:&amp;vet=10ahUKEwiHgN6X193eAhUHCewKHd53ASYQMwhAKAIwAg..i&amp;w=986
+
+Säfte mit Früchten = https://www.google.de/search?q=Bier+und+Saft+reihe&amp;tbs=rimg:CfDuG8ijDwsaIjgwA6c9bXDaYLOxiCb2z9aYuIMNs9tPO7NIB1K9anRNlMg5c9rKb8teXcp4B6vY8AyqGgJAkkJQWioSCTADpz1tcNpgEZQmqxMqS29VKhIJs7GIJvbP1pgRtgx_1k_1PblR0qEgm4gw2z2087sxF3zFxtJ_1ErjioSCUgHUr1qdE2UEey17hf-Vqk_1KhIJyDlz2spvy14R0GQ6lPM4ZMwqEgldyngHq9jwDBFdl7Ulr9nhOSoSCaoaAkCSQlBaEV-iPdpPH3j2,isz:lt,islt:2mp&amp;tbm=isch&amp;source=lnt&amp;sa=X&amp;ved=0ahUKEwjxmLjp2d3eAhXDY1AKHabWAXQQpwUIHw&amp;biw=1920&amp;bih=931&amp;dpr=1#imgdii=UGWXCGR_WUv7WM:&amp;imgrc=xv3aCdIPcYG-eM:
+
+Liebkosendes Paar = https://www.google.de/imgres?imgurl=https%3A%2F%2Fmedia.glamour.com%2Fphotos%2F577176277f743c3e35b97595%2Fmaster%2Fpass%2Fcycle-sex.jpg&amp;imgrefurl=https%3A%2F%2Fwww.glamour.com%2Fstory%2Fbest-time-cycle-sex&amp;docid=Q_Ps8vN6G5VG7M&amp;tbnid=U7N-OpV6fwDG8M%3A&amp;vet=10ahUKEwjro5in293eAhXNI1AKHfVSCFAQMwg0KA0wDQ..i&amp;w=865&amp;h=577&amp;bih=931&amp;biw=1920&amp;q=Sex&amp;ved=0ahUKEwjro5in293eAhXNI1AKHfVSCFAQMwg0KA0wDQ&amp;iact=mrc&amp;uact=8
+
+Lexikas = https://www.google.de/imgres?imgurl=http%3A%2F%2Fwww.bombastic.at%2Fwp-content%2Fuploads%2F2014%2F01%2FIMG_7379.jpg&amp;imgrefurl=http%3A%2F%2Fwww.bombastic.at%2F%3Fproduct%3Dlexika-alt&amp;docid=vQ0ZyKnU41rvSM&amp;tbnid=tuje3jGB-kmi_M%3A&amp;vet=10ahUKEwjMwJOFh97eAhXJYVAKHb_NDV0QMwhLKA0wDQ..i&amp;w=2592&amp;h=1728&amp;itg=1&amp;bih=931&amp;biw=1920&amp;q=Lexika&amp;ved=0ahUKEwjMwJOFh97eAhXJYVAKHb_NDV0QMwhLKA0wDQ&amp;iact=mrc&amp;uact=8
+
+Säulen im Tempel = https://www.google.de/imgres?imgurl=https%3A%2F%2Fmediafiles.urlaubsguru.de%2Fwp-content%2Fuploads%2F2017%2F08%2FBezirk-des-Amun-Re-iStock-471363723.jpg&amp;imgrefurl=https%3A%2F%2Fwww.urlaubsguru.de%2Freisemagazin%2Fnilkreuzfahrt-aegypten%2F&amp;docid=iq-PmFp0XWkDKM&amp;tbnid=BxfnnfVpzKjYSM%3A&amp;vet=10ahUKEwiJorysh97eAhWKZFAKHdUMDoAQMwhHKAkwCQ..i&amp;w=3869&amp;h=2573&amp;bih=931&amp;biw=1920&amp;q=%C3%84gyptische%20Kultur&amp;ved=0ahUKEwiJorysh97eAhWKZFAKHdUMDoAQMwhHKAkwCQ&amp;iact=mrc&amp;uact=8
+
+Keilschrift = https://www.google.de/imgres?imgurl=http%3A%2F%2Fwww.cdli.ucla.edu%2Fdl%2Fphoto%2FP221782.jpg&amp;imgrefurl=http%3A%2F%2Fwww.academia.edu%2F14119258%2FDie_Entwicklung_der_keilschriftlichen_sumerischen_Beschw%25C3%25B6rungsliteratur_von_den_Anf%25C3%25A4ngen_bis_zur_Ur_III-Zeit&amp;docid=d6RZmzNLetNmpM&amp;tbnid=qqKEs4WsaerDVM%3A&amp;vet=10ahUKEwiut7bLh97eAhUSJlAKHQiICZgQMwhGKAgwCA..i&amp;w=1661&amp;h=3197&amp;itg=1&amp;bih=931&amp;biw=1920&amp;q=sumerer%20&amp;ved=0ahUKEwiut7bLh97eAhUSJlAKHQiICZgQMwhGKAgwCA&amp;iact=mrc&amp;uact=8
+
+Hopfen und Bier = https://www.google.de/imgres?imgurl=https%3A%2F%2Fwww.hrs.de%2Fhotel%2Funterwegs%2Fwp-content%2Fuploads%2F2016%2F07%2FDas-beste-Bier-der-Welt-2.jpg&amp;imgrefurl=https%3A%2F%2Fwww.hrs.de%2Fhotel%2Funterwegs%2Freiseziele%2Fdeutschland%2Fdas-beste-bier-der-welt%2F&amp;docid=Q68CJeuo5XdOVM&amp;tbnid=IIxyKFTD0kHVJM%3A&amp;vet=10ahUKEwittuaqiN7eAhVDaFAKHU7tBpUQMwhCKAQwBA..i&amp;w=2500&amp;h=1667&amp;bih=931&amp;biw=1920&amp;q=Reinheitsgebot&amp;ved=0ahUKEwittuaqiN7eAhVDaFAKHU7tBpUQMwhCKAQwBA&amp;iact=mrc&amp;uact=8
+
+Reinheitsgebot = https://www.google.de/imgres?imgurl=https%3A%2F%2Fwww.hrs.de%2Fhotel%2Funterwegs%2Fwp-content%2Fuploads%2F2016%2F07%2FDas-beste-Bier-der-Welt-2.jpg&amp;imgrefurl=https%3A%2F%2Fwww.hrs.de%2Fhotel%2Funterwegs%2Freiseziele%2Fdeutschland%2Fdas-beste-bier-der-welt%2F&amp;docid=Q68CJeuo5XdOVM&amp;tbnid=IIxyKFTD0kHVJM%3A&amp;vet=10ahUKEwittuaqiN7eAhVDaFAKHU7tBpUQMwhCKAQwBA..i&amp;w=2500&amp;h=1667&amp;bih=931&amp;biw=1920&amp;q=Reinheitsgebot&amp;ved=0ahUKEwittuaqiN7eAhVDaFAKHU7tBpUQMwhCKAQwBA&amp;iact=mrc&amp;uact=8
+
+Neurotransmittersystem = https://www.google.de/search?biw=1920&amp;bih=931&amp;tbs=isz%3Alt%2Cislt%3A4mp&amp;tbm=isch&amp;sa=1&amp;ei=Xm3xW5evNcLcwAKnoYfIBw&amp;q=neurotransmitter+&amp;oq=neurotransmitter+&amp;gs_l=img.3..0i67j0l9.1311.1311..1549...0.0..0.63.63.1......1....1..gws-wiz-img.1o8AukhtpPA#imgrc=zaBasga1r-I_RM:
+
+anstoßen mit Bier = https://www.google.de/imgres?imgurl=https%3A%2F%2Fi0.web.de%2Fimage%2F382%2F33137382%2Cpd%3D1%2Fbierkruege-oktoberfest.jpg&amp;imgrefurl=https%3A%2F%2Fweb.de%2Fmagazine%2Funterhaltung%2Flifestyle%2Foktoberfest%2F&amp;docid=zuCM3wxmEUReHM&amp;tbnid=fchDxJmlA6mlAM%3A&amp;vet=10ahUKEwiB-rj1ld7eAhUiNOwKHZZYA7UQMwhJKAswCw..i&amp;w=3000&amp;h=2002&amp;bih=931&amp;biw=1920&amp;q=ansto%C3%9Fen%20Bierkrug&amp;ved=0ahUKEwiB-rj1ld7eAhUiNOwKHZZYA7UQMwhJKAswCw&amp;iact=mrc&amp;uact=8
+
+wilder Mann und Dirne = https://www.google.de/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F2%2F24%2FTugendreiche_Dame_z%25C3%25A4hmt_Wildmann.png&amp;imgrefurl=https%3A%2F%2Fde.wikipedia.org%2Fwiki%2FWilder_Mann&amp;docid=GwghOmva_Dys1M&amp;tbnid=czUz-XNyFy4lkM%3A&amp;vet=10ahUKEwjw2pGkmd7eAhVP_KQKHRAqAT4QMwh0KCkwKQ..i&amp;w=2352&amp;h=1872&amp;bih=931&amp;biw=1920&amp;q=Enkidu%20bier&amp;ved=0ahUKEwjw2pGkmd7eAhVP_KQKHRAqAT4QMwh0KCkwKQ&amp;iact=mrc&amp;uact=8
+
+antiker Krug = https://www.google.de/imgres?imgurl=https%3A%2F%2Fwww.guezelyurt-gelveri.com%2Fwp-content%2Fuploads%2F2017%2F08%2FA-31-1-Kps-Mehl-getrocknete-Bohnen-Frchte.jpg&amp;imgrefurl=https%3A%2F%2Fwww.guezelyurt-gelveri.com%2Fgeschichte-der-amphoren%2F&amp;docid=PzXRRuk5pS-jZM&amp;tbnid=PrqK5egM-gGnUM%3A&amp;vet=10ahUKEwjn9qe8mt7eAhXSsaQKHfR7A74QMwhBKAMwAw..i&amp;w=3373&amp;h=2438&amp;bih=931&amp;biw=1920&amp;q=verzierten%20Tont%C3%B6pfen%20Antike&amp;ved=0ahUKEwjn9qe8mt7eAhXSsaQKHfR7A74QMwhBKAMwAw&amp;iact=mrc&amp;uact=8#h=2438&amp;imgdii=CU0KFbo7EZCp8M:&amp;vet=10ahUKEwjn9qe8mt7eAhXSsaQKHfR7A74QMwhBKAMwAw..i&amp;w=3373
+
+Codex Hammurapi = https://www.google.de/imgres?imgurl=http%3A%2F%2Fcdli.ox.ac.uk%2Fwiki%2Flib%2Fexe%2Ffetch.php%3Fw%3D200%26tok%3D5a1f79%26media%3Dhttp%253A%252F%252Fcdli.ox.ac.uk%252Fimages%252FP249253_detail.jpg&amp;imgrefurl=http%3A%2F%2Fcdli.ox.ac.uk%2Fwiki%2Fdoku.php%3Fid%3Dcodex_hammurapi&amp;docid=YcVzBaz0HVmibM&amp;tbnid=qL8q63RreeCO3M%3A&amp;vet=10ahUKEwiR4MOhm97eAhWrsKQKHUHlAmUQMwg_KAIwAg..i&amp;w=2148&amp;h=4240&amp;bih=931&amp;biw=1920&amp;q=Codex%20Hammurabi%20&amp;ved=0ahUKEwiR4MOhm97eAhWrsKQKHUHlAmUQMwg_KAIwAg&amp;iact=mrc&amp;uact=8
+
+trinkgewohnheit Babylon = https://www.google.de/imgres?imgurl=http%3A%2F%2Fwww.schlenkerla.de%2Fbiergeschichte%2Fbrauerstern%2Fbilder%2Fkraus-babylonier-s44.jpg&amp;imgrefurl=http%3A%2F%2Fwww.schlenkerla.de%2Fbiergeschichte%2Fbrauerstern%2Fhtml%2Fgeschichte.html&amp;docid=X77LEo4kp4i8AM&amp;tbnid=4WKKN2d-wivPAM%3A&amp;vet=10ahUKEwjY96HDnN7eAhUMNOwKHeo7DPUQMwiUAShLMEs..i&amp;w=830&amp;h=569&amp;bih=931&amp;biw=1920&amp;q=Brauen%20Mittelalter%20Frau&amp;ved=0ahUKEwjY96HDnN7eAhUMNOwKHeo7DPUQMwiUAShLMEs&amp;iact=mrc&amp;uact=8
+
+mittelalterliche Brauerei = https://www.google.de/imgres?imgurl=http%3A%2F%2Fwww.hgr.hn.bw.schule.de%2Fcomenius%2Fbierbrauen%2Fimages%2FBilder%2FBier%2520i2.jpg&amp;imgrefurl=http%3A%2F%2Fwww.hgr.hn.bw.schule.de%2Fcomenius%2Fbierbrauen%2Fimages%2FSeiten%2FBier%2520im%2520Mittelalter.htm&amp;docid=Zwlu_MdC5lgp7M&amp;tbnid=kwih_yt9osW6TM%3A&amp;vet=10ahUKEwj3jM7Snd7eAhXG_aQKHVNYAFoQMwg7KAIwAg..i&amp;w=782&amp;h=739&amp;bih=931&amp;biw=1920&amp;q=Brauerei%20im%20Mittelalter&amp;ved=0ahUKEwj3jM7Snd7eAhXG_aQKHVNYAFoQMwg7KAIwAg&amp;iact=mrc&amp;uact=8#h=739&amp;imgdii=FvI0DxFPdS9HnM:&amp;vet=10ahUKEwj3jM7Snd7eAhXG_aQKHVNYAFoQMwg7KAIwAg..i&amp;w=782
+
+    </string>">
+
+    <string name="rundgang_Minibar_title">Getränke</string>
+    <string name="rundgang_Mengenregler_title">Regler</string>
+    <string name="rundgang_Trinkbutton_title">Trinken</string>
+    <string name="rundgang_Magazin_title">Wissen</string>
+    <string name="rundgang_Minibar">Wähle ein Getränk aus.</string>
+    <string name="rundgang_Mengenregler">Passe dein Getränk an.</string>
+    <string name="rundgang_Trinkbutten">Drücke auf Trinken, um das Getränk zu speichern.</string>
+    <string name="rundgang_Magazin">Drücke auf das Buch, um Wissen zu erlangen.</string>
+
+    <!--
+    <string name="rundgang_Alkoholfreier">Am AlkoholRegler kannst Du die Alkoholmenge deines Getränkes bestimmen.</string>
+    <string name="rundgang_Rückgabe">Hier gibst du das Getränk zurück.</string>
+    <string name="rundgang_Save">Hier speicherst Du dein Getränk.</string>
+    <string name="rundgang_Party_Over">Drückst du diesen Button ist die Party vorbei, deine Getränke werden abgespeichert und sind einsehbar auf deinem Speicher.</string>
+    <string name="rundgang_exit">Du hast die Einführung abgeschlossen.</string>
+-->
+
+    <!--
+    <string name="rundgang_Alkoholregler_title">Alkoholregler</string>
+
+    <string name="rundgang_Rueckgabe_title">Getränk entfernen</string>
+    <string name="rundgang_Save_title">Speichern</string>
+    <string name="rundgang_Party_Over_title">Beenden der Party</string>
+    <string name="rundgang_exit_title">Glückwunsch :D</string>
+-->
+    <string name="history_title">Verlauf</string>
+    <string name="history_menge">Menge: </string>
+    <string name="history_alk">Gehalt: </string>
+    <string name="history_g"> g</string>
+    <string name="history_prozent"> %</string>
+
+
+    <string name="quickstart_message">Click the SUBSCRIBE TO NEWS button below to subscribe to the
+
+        news topic. Messages sent to the news topic will be received. The LOG TOKEN button logs the
+
+        InstanceID token to logcat.</string>
+
+    <string name="subscribe_to_news">Subscribe To News</string>
+
+    <string name="log_token">Log Token</string>
+
+
+    <string name="msg_subscribed">Subscribed to news topic</string>
+
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+
+    <!--
+
+        This is the name that users will see when interacting with this channel.
+
+        It should describe the category of notifications that will be sent through this channel
+
+     -->
+
+    <string name="default_notification_channel_name" translatable="true">News</string>
+
+    <string name="splash_screen_text">Willkommen bei HappyDrink.\nDein simpler Promillerechner</string>
+
+    <!--
+    <string name="HelloUser_konzept">Wie schön, dass Du zu uns gefunden hast. HappyDrink ist ein ganz einfacher Promillerechner. Sobald Du ihn startest, beginnen auch schon die Berechnungen. Schließt Du ihn, speichert HappyDrink automatisch deine Eingaben.</string>
+    <string name="HelloUser_konzept_title">Kurze Erklärung</string>
+
+    <string name="HelloUser_menu">Im Menu findest Du wichtige Informationen und Optionen. Hier kannst Du auch ein ausführliches Tutorial starten.</string>
+    <string name="HelloUser_menu_title">Das Menu</string>
+-->
+    <string name="Info_Datenerhebung">Wir möchten Dich darauf hinweisen, dass die Eingabe deiner persönlichen Daten Rechengrundlage ist für HappyDrink. Du kannst deine Daten jederzeit im Menu ändern. Es werden keine persönlichen Daten verwendet, sondern ausschließlich anonymisierte Daten zur Verbesserung der App erhoben.</string>
+    <string name="Info_Datenerhebung_title">Infos zur Datenerhebung</string>
+
+    <string name="check_permission_storage">Wir benötigen die Berechtigung auf deinen Speicherplatz zuzugreifen, um deine Daten (Eingaben, Verlauf ...) abzuspeichern.</string>
+    <string name="check_permission_internet">Wir benötigen eine Internet Verbindung, um anonymisierte Daten zur besseren Nutzererfahrung zu senden und zu verarbeiten. Außerdem kann ohne eine INternetverbindung keine Werbeschaltung gewährleistet werden. </string>
+
+    <string name="check_permission_btn">verstanden</string>
+
+    <string name="assisstent_time_rad_1">gestern</string>
+    <string name="assisstent_time_rad_2">heute</string>
+<!--
+    <string name="assisstent_time_text">Hier änderst Du den letzten Ausnüchterungszeitpunkt (z.B.: Start der Party oder Zwischendurch nüchtern gewesen), trage deine Getränke wie gewohnt ein und speichere die Session, um den Nachtrag zu beenden.</string>
+-->
+
+    <string name="assisstent_time_text">Trage den letzten Zeitpunkt ein an dem Du noch nüchtern warst. (Erstes alkoholisches Getränk oder ausgenüchtert)</string>
+
+    <string name="rate_txt_0">inahltliche Fehler</string>
+    <string name="rate_txt_1">grafische Fehler</string>
+    <string name="rate_txt_2">schlechtes Design</string>
+    <string name="rate_txt_3">unklare Datenschutzerklärung</string>
+    <string name="rate_txt_4">unklare Datenspeicherung</string>
+    <string name="rate_txt_5">Bedienung ist umständlich</string>
+    <string name="rate_txt_6">keine Verwendung für HappyDrink</string>
+    <string name="rate_send">anonym senden</string>
+    <string name="rate_pos">bewerten auf Google Play</string>
+    <string name="rate_neu">abbrechen</string>
+    <string name="rate_neg">Verbessung vorschlagen</string>
+    <string name="rate_txt">Vielen Dank, dass Du HappyDrink benutzt hast. Bitte gib uns eine kurze Rückmeldung, damit wir HappyDrink für Dich verbessern können.</string>
+    <string name="rate_title">Deine Meinung</string>
+
+    <string name="infobox_title">HappyDrink - Das Magazin</string>
+
+    <string name="infobox_texttitle_substanz">Ethanol als Bestandteil aller alkoholischen Getränke</string>
+    <string name="infobox_text_substanz">Alkohol lässt sich als chemische Substanz in viele Alkohole unterteilen. Neben dem trinkbaren uns bekannten Ethanol (auch Äthanol), gibt es auch giftige Alkohole. Darunter zählen zum Beispiel
+&lt;br /&gt;&lt;br /&gt;Methanol … kann als Energielieferant genutzt werden
+&lt;br /&gt;&lt;br /&gt;oder
+&lt;br /&gt;&lt;br /&gt;Glycol … Enthalten in Frostschutzmitteln da der Gefrierpunkt niedriger ist als Wasser.
+
+&lt;br /&gt;Unser Trinkalkohol kann auf verschiedene Arten hergestellt werden.
+
+        &lt;br /&gt;&lt;br /&gt;Eine Herstellungsvariante stellt die Gährung dar:
+Der Gehrprozess kann obergärig oder untergärig sein. Obergärig bedeutet, dass die Würze bei ca. 15-20 Grad Celsius gährt. Bei diesen Temperaturen entstehen fruchtig-aromatische Biere wie Weizen, Alt oder Kölsch. Untergärig bedeutet, dass die Würze bei Temperaturen von 4-10 Grad Celsius gährt. Es entstehen Biersorten wie Pils, Helles oder Export.
+
+</string>
+    <string name="infobox_textautor_substanz">David Hernandez</string>
+    <string name="infobox_textquelle_substanz">Deutsche Hauptstelle für Suchtfragen e.V.:  „Alkohol – Abhängigkeit“: Suchtmedizinische Reihe Band 1, Auflage 7.30.04.17, Kunst- und Werbedruck Bad Oeynhausen, 2013.
+Private Brauereiverein: „Bierherstellung“ ,http://bierwiki.org/index.php?title=Bierherstellung, 14.07.2018.
+</string>
+
+    <string name="infobox_texttitle_abhaengigkeit">Abhängigkeit und Entzugserscheinungen</string>
+    <string name="infobox_text_abhaengigkeit">In Deutschland gelten rund 1,3 Mio. Menschen als abhängig. Gesellschaften weisen eine besonders hohe Abhängigkeitsrate auf, wenn ein übermäßig hohes Angebot herrscht. Die Ursachen für eine Abhängigkeit liegen Häufig in der Person, ihrem sozialem Umfeld und in der Substanz selbst. Eine Abhängigkeit kann durch alle oder durch eine dieser Faktoren entstehen, aber auch ein reiner Alkoholmissbrauch kann zur körperlichen und einschließlich auch psychischen Abhängigkeit führen. Ab wann ein Mensch abhängig ist, kann man mithilfe des ICD-10 oder der Definition von Abhängigkeit der WHO einschätzen. Hierzu müssen jedoch verschiedene andere Faktoren (Kontext einer Person, individuelle Faktoren) berücksichtigt werden, was ein mindestmaß an beruflicher Erfahrung erfordert. Deshalb sollten professionelle Diagnosen immer im Rahmen einer ärztlich oder psychiatrischen ambulanten Einrichtung vorgenommen werden. Wem diese Schwelle zu hoch ist, kann sich auch an professionelle Beratungsstellen vor Ort wenden, die die Situation des Einzelnen im Gespräch gemeinsam einschätzt.
+
+Eine Suchterkrankung liegt vor, wenn folgende Symptome innerhalb der letzten 12 Monate vorlagen:&lt;br /&gt;&lt;br /&gt;
+        Ein abruptes Absetzen der Alkoholeinnahme, kann zu starken Entzugserscheinungen führen, wenn der Konsument über einen längeren Zeitraum größere Mengen Alkohol regelmäßig konsumiert hat. Die Folge sind ein starkes Zittern (Tremor), Verwirrtheit, Halluzinationen, Unruhe und Wahnvorstellungen. Die starken vegetativen Störungen also körperliche unkontrollierbare Äußerungen wie Zittern, Schwitzen oder Fieber, erhöhen das Risiko eines Kreislaufkollapses.
+</string>
+    <string name="infobox_textautor_abhaengigkeit">David Hernandez</string>
+    <string name="infobox_textquelle_abhaengigkeit">Deutsche Hauptstelle für Suchtfragen e.V.:  „Alkohol – Abhängigkeit“: Suchtmedizinische Reihe Band 1, Auflage 7.30.04.17, Kunst- und Werbedruck Bad Oeynhausen, 2013.</string>
+
+    <string name="infobox_texttitle_auswirkungen">Akutwirkungen von Alkohol</string>
+    <string name="infobox_text_auswirkungen"></string>
+    <string name="infobox_textautor_auswirkungen">David Hernandez</string>
+    <string name="infobox_textquelle_auswirkungen">http://www.kenn-dein-limit.info/promille-und-folgen.html&lt;br /&gt;&lt;br /&gt;https://www.kenn-dein-limit.de/alkohol/alkoholverzicht/teilnahme-am-strassenverkehr/promillegrenzen/ </string>
+
+    <string name="infobox_texttitle_schwanger">Alkohol in der Schwangerschaft</string>
+    <string name="infobox_text_schwanger">Da Alkohol im Blut transportiert wird, erreicht es alle Organe im Körper, auch jene Organe, welche die Schwangerschaft unterstützen. Es kann zu einer nachhaltigen Schädigung des Kindes kommen, weil derselbe Alkoholgehalt bzw. das toxische Abbauprodukt (Acetaldehyd) im Organismus des Kindes durch die Nährverbindung mit der Mutter vorzufinden ist. Die Folge sind Missbildungen des Körpers und irreparable Verhaltensstörungen oder geistige Behinderung durch komplexe neurologische Schäden im Gehirn des Kindes. In einer Broschüre der Deutschen Hauptstelle für Suchtfragen heißt es: „Bei einem täglichen Konsum von 29g Alkohol in der Schwangerschaft wurde in großen Feldstudien eine Minderung des IQ (Intelligenzquotienten) beim Kind um durchschnittlich sieben IQ-Punkte ermittelt.“ (S.112). Zudem kann sich im Laufe des Lebens eines betroffenen Kindes eine Alkoholerkrankung herausbilden, da das Kind bereits während der Schwangerschaft Alkoholintoxikation und dessen Entzug betroffen war. Man schätzt eine Wahrscheinlichkeit von 30% (ebd.).</string>
+    <string name="infobox_textautor_schwanger">David Hernandez</string>
+    <string name="infobox_textquelle_schwanger">DHS: „Alkoholabhängigkeit“, Band 1, 7.30.04.17 (Auflage), Hamm.</string>
+
+    <string name="infobox_texttitle_einnahme">Wichtige Faktoren der Alkoholeinnahme</string>
+    <string name="infobox_text_einnahme">
+Alkohol wird über die Schleimhäute des Zwölffingerdarms und des Dünndarms aufgenommen. Dabei ist ungefähr nach 30 bis 75 Minuten ein Maximum an Blutalkoholkonzentration im Körper zu erwarten. Wird in kürzester Zeit eine große Menge an Alkohol getrunken kommt es in der Folge nach spätestens 75 Minuten zu einer sehr hohen Blutalkoholkonzentration. Wird dagegen die gleiche Menge langsamer dem Körper zugeführt, ist der Verlauf der Blutalkoholkonzentration niedriger.
+
+Die Blutalkoholkonzentration bei Frauen ist auf die Zeit gesehen höher als bei Männern. Heißt Frauen haben bei gleicher Menge an Alkohol eine höhere Blutalkoholkonzentration. Dies liegt daran, dass der weibliche Körper die Menge an Alkohol weniger im Körper verteilt. Männer haben mehr Körperwasser proportional zu ihrem Körpergewicht als Frauen. Sie können Alkohol großflächig im Fettgewebe verteilen, gleichzeitig sinkt damit die Blutalkoholkonzentration.
+
+Aus dieser Erkenntnis lässt sich schlussfolgern, dass die Wirkung von Alkohol durch die Aufnahme und den eigenen Körper bestimmt wird. Das eigene Körpergewicht und das Geschlecht sind ausschlaggebend. Hinzu kommen dann auch die Trinkmenge und die Trinkgeschwindigkeit.
+</string>
+    <string name="infobox_textautor_einnahme">David Hernandez</string>
+    <string name="infobox_textquelle_einnahme">Deutsche Hauptstelle für Suchtfragen e.V.:  „Alkohol – Abhängigkeit“: Suchtmedizinische Reihe Band 1, Auflage 7.30.04.17, Kunst- und Werbedruck Bad Oeynhausen, 2013.</string>
+
+    <string name="infobox_texttitle_langzeit">Langzeitfolgen</string>
+    <string name="infobox_text_langzeit">Die Langzeitfolgen sprechen eine eindeutige Sprache! Alkoholismus über einen langen Zeitraum ist nachhaltig schädigend für den Körper. Alkohol wird über den gesamten Blutkreislauf übertragen, somit werden über einen regelmäßigen und langzeitlichen Alkoholkonsum viele Organe geschädigt. Folgende Organe sind dabei besonders getroffen:&lt;br /&gt;&lt;br /&gt;Die hier dargestellten Möglichkeiten von körperlichen Erkrankungen, wurden zum Zwecke einer besseren Darstellung stark vereinfacht und entsprechen nicht dem tatsächlichen breiten möglichem Ausmaß, gemäß dem Fall von langjährigem Alkoholmissbrauch (schädlicher Gebrauch – tgl. mehr als 24g Alkohol am Tag mit weniger als 3 Erholungstagen innerhalb einer Woche)&lt;br /&gt;&lt;br /&gt;.Durch die Zerstörung von Gehirnzellen, steigt das Risiko intellektuellen- und Erinnerungsfähigkeiten nachhaltig zu beschädigen, so dass es unter anderem zur Demenz kommen kann (Korsakow-Syndrom). Die Leber schwillt bei einer Überlastung an und speichert Fetteinlagerungen. Beim Fortsetzen des Alkoholkonsums wird Bindegewebe in die Leber eingelagert (Leberfibrose). Im Endstadium versagt die Leber, dann spricht man von einer Leberzirrhose. Leberzirrhose führt meist zum Tod. Alkohol an sich ist nicht krebserregend, jedoch in Kombination mit anderen Stoffen schon, z.B.: mit Zigarettenrauch. Außerdem ist das Abbauprodukt Acetaldehyd sehr krebserregend und führt im Körper schlimmstenfalls zu Mutationen. Zudem ist regelmäßiger Alkoholkonsum Zeichen einer schlechten Ernährung und kann zu Übergewicht führen. Übergewicht selbst ist meist Ursache für weitere Folgeerkrankungen.</string>
+    <string name="infobox_textautor_langzeit">David Hernandez</string>
+    <string name="infobox_textquelle_langzeit">https://www.krebsgesellschaft.de/onko-internetportal/basis-informationen-krebs/bewusst-leben/alkohol-und-krebserkrankungen.html&lt;br /&gt;&lt;br /&gt;</string>
+
+    <string name="infobox_texttitle_safer_use">Safer Use</string>
+    <string name="infobox_text_safer_use">Trinke nicht aus Langeweile oder wenn es dir schlecht geht.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+
+Trinke Alkohol mit Genuss und lass dir Zeit dabei.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+
+Trinke Alkohol nicht auf leeren Magen.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+
+Vermeide Mischkonsum verschiedener alkoholischer Getränke, trinke Wasser oder Saft dazu (z.B. ein Glas Wasser nach jedem alkoholischen Getränk).&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+
+Vorsicht mit Mischgetränken (z.B. Alcopops) oder Selbstgemischtem! Bei diesen Süssgetränken schmeckt man den Alkohol kaum heraus, obwohl eine 3dl-Flasche rund zwei Schnäpse enthält − die Gefahr einer ungewollten Überdosierung ist hoch.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+
+Verzichte generell auf den Konsum von Alkohol, wenn du andere psychoaktive Substanzen konsumierst; deren Wirkung wird durch den Alkohol verändert, oder es treten gefährliche Nebenwirkungen auf (z.B. Alkohol und GHB = Erstickungsgefahr!).&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+
+Wer trinkt, fährt nicht− benutze öffentliche Verkehrsmittel, nimm ein Taxi oder gehe zu Fuss.&lt;br /&gt;      &lt;br /&gt;&lt; br&gt;&lt;br /&gt;
+
+Starker oder regelmässiger Alkoholkonsum während der Schwangerschaft ist ein Risiko für den Fötus. Schwere Schäden beim Kind können die Folge sein.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+
+Beachte auch unter Alkoholeinfluss die Safer Sex Regeln (siehe link in Quellen).
+</string>
+    <string name="infobox_textautor_safer_use">David Hernandez</string>
+    <string name="infobox_textquelle_safer_use">http://www.saferparty.ch&lt;br /&gt;&lt;br /&gt;https://www.saferparty.ch/risikoreiches-sexualverhalten.html</string>
+
+
+    <string name="infobox_texttitle_wort">Das Wort „Bier“</string>
+    <string name="infobox_text_wort">Über den Ursprung des Wortes Bier gibt es unterschiedliche Erkenntnisse. Vermutlich stammt das Wort vom lateinisches Wort biber ab, was soviel wie Trank bedeutet. Eine andere Herkunft des Wortes stammt aus dem germanischen ÄL ab, was ein ungehopften gegehrten Weizentrunk meint. Der Wortstamm ist gleich mit dem englischen Ale oder dem schwedischen Öl.</string>
+    <string name="infobox_textautor_wort">David Hernandez</string>
+    <string name="infobox_textquelle_wort">Heidelore, Kluge: „Die Heilkraft des Bieres“, KOPP Verlag, 2008, München.</string>
+
+    <string name="infobox_texttitle_aegypter">Bier bei den Ägyptern</string>
+    <string name="infobox_text_aegypter">Bereits bei den Ägyptern wurde Bier getrunken. Nicht immer war Bier ein Grundnahrungs –oder Genußmittel. Es wurde auch als Kultgetränk für religiöse Riten oder als Heilmittel genutzt. In 1500 Jahren alten Skeleten fand man das Antibiotikum Tetrazyklin, was durch die Herstellung ins Bier gelangte und so heute in genannten Skeletten zu finden ist.</string>
+    <string name="infobox_textautor_aegypter">David Hernandez</string>
+    <string name="infobox_textquelle_aegypter">Heidelore, Kluge: „Die Heilkraft des Bieres“, KOPP Verlag, 2008, München.</string>
+
+    <string name="infobox_texttitle_erfindung">Die Erfindung Bier</string>
+    <string name="infobox_text_erfindung">Ob das Bier durch Zufall oder durch bewusstes experimentieren entstand ist nicht zu klären. Fest steht, dass erste Aufzeichnungen über Bier und dessen Herstellung in 6000 Jahren alten Schriftzeugnissen der Sumerer gefunden wurde. Diese Hochkultur, die außerdem die Keilschrift erfunden hat und damit eine Urvorlage der modernen Schriftstile in Europa erfand, ist im heutigen Irak anzusiedeln.</string>
+    <string name="infobox_textautor_erfindung">David Hernandez</string>
+    <string name="infobox_textquelle_erfindung">Heidelore, Kluge: „Die Heilkraft des Bieres“, KOPP Verlag, 2008, München.</string>
+
+    <string name="infobox_texttitle_sumerer">Bier als Kulturgut bei den Sumerern</string>
+    <string name="infobox_text_sumerer">Im sogenannten Gilgamesch - Epos, wo es um einen jungen tatkräftigen Despoten ging, der über Uruk herrscht, wird beschrieben, wie die Göttin Aruru einen Weggefährten für Gilgamesch aus Lehm formt, um diesen der Bevölkerung wegen zu bändigen. Dieser Weggefährte names Enkidu, war halb Mensch, halb Tier. Fern von Zivilisation wurde die Prostituierte Samhat durch Gilgamesch mit dem göttlichen Auftrag vertraut, Enkidu sexuell zu verführen, um ihn von der Wildnis zu entfremden und auf die Gefolgschaft mit Gilgamesch vorzubereiten. Enkidu erlag ihren Verführungen und vergas nach einer Woche Liebesspiel die Wildnis. Auf einer zweiten Schrifttafel der Sumerer erlernt Enkidu vollständig die Zivilisation kennen. Er erlernt Ihre Sprache, isst ihr Brot, lässt sich bei einem Babier die Haare schneiden und trink das schon damals bekannte Bier. </string>
+    <string name="infobox_textautor_sumerer">David Hernandez</string>
+    <string name="infobox_textquelle_sumerer">Heidelore, Kluge: „Die Heilkraft des Bieres“, KOPP Verlag, 2008, München. Wikipedia: „Gilgamesch-Epos“, &lt;br /&gt;&lt;br /&gt;https://de.wikipedia.org/wiki/Gilgamesch-Epos#Das_Epos, 05.10.18.</string>
+
+    <string name="infobox_texttitle_trinkgewohnheit">Trinkgewohnheiten vor 6000 Jahren</string>
+    <string name="infobox_text_trinkgewohnheit">Bei den Sumerern war Bier ein Kulturgut und wurde mit dem Menschsein und der Zivilisation verknüpft. Man legte daher Wert auf einen gepflegten Konsum. Bier wurde mit Trinkhalmen aus verzierten Tontöpfen getrunken. Die Halme dienten der Filterung des Bieres, da es sich unfiltriert im Tontopf befand. Das Volk der Philister die Tausend Jahre später lebten, stellten Bierkrüge mit Sieben her. Diese Siebe sollten verhindern, dass die Schalen der Gerste in den Mund gelangten. Auch die Bierkrüge der Phillister wurden aufwändig verziert.</string>
+    <string name="infobox_textautor_trinkgewohnheit">David Hernandez</string>
+    <string name="infobox_textquelle_trinkgewohnheit">Heidelore, Kluge: „Die Heilkraft des Bieres“, KOPP Verlag, 2008, München.</string>
+
+    <string name="infobox_texttitle_erstes_reinheitsgebot">Erstes Reinheitsgebot der Menschheit</string>
+    <string name="infobox_text_erstes_reinheitsgebot">Das erste Reinheitsgebot geht auf den Codex Hammurabi zurück. Dieser Codex wurde vom babylonischen Herrscher Hammurabi in Auftrag gegeben. Dieser Codex, der mit unter bis heute als ein bedeutendes Schriftstück und Säule unseres Rechtssystems gilt, wurde zu einer Zeit erstellt, in der es nötig war im gesamten babylonischen Reich ein einheitliches Rechtssystem zu etablieren. Da die Braukunst älter war und bis dato keinem Gebot unterlag, wurde auch diese geregelt. Bierpanscher mussten fürchten, dass sie in ihre mit Bier gefüllten Fässer gesteckt wurden und solange mit Bier begossen wurden bis sie erstickten. So heißt es im §108:
+§ 108 Gesetzt, eine Bierschenkin hat als Bezahlung des Bieres Getreide nicht angenommen, nach dem großen Gewicht Geld angenommen. und (oder) den Wert an Bier geringer gemacht im Verhältnis zu dem Wert des Getreides, so wird man jene Bierschenkin überführen und ins Wasser werfen.
+Der Ausdruck „ins Wasser werfen“ als Strafe findet sich neben dem Braugebot, auch in privatrechtlichen Paragrafen wieder, die häufig Ehebruch, Brautwerben oder die Haushaltsführung der Frau in Abwesenheit des Mannes regeln.
+</string>
+    <string name="infobox_textautor_erstes_reinheitsgebot">David Hernandez</string>
+    <string name="infobox_textquelle_erstes_reinheitsgebot">Heidelore, Kluge: „Die Heilkraft des Bieres“, KOPP Verlag, 2008, München.</string>
+
+    <string name="infobox_texttitle_reinheitsgebot">Reinheitsgebot gegen Hexenverbrennung und berauschender Panscherei</string>
+    <string name="infobox_text_reinheitsgebot">Das Reinheitsgebot von 1516 wurde aufgrund von Missständen im Brauwesen erlassen. Seit dem Erlass darf nur Wasser, Gerste und Hopfen zur Bierherstellung verwendet werden. Die Verwendung des Hopfens war dabei die große Neuerung. Dem Reinheitsgebot ging das sogenannte Grutrecht voraus. Das Grut bezeichnet die verschiedenen Kräutermischen, die beim Brauen verwendet wurden. Sie sorgten dafür, dass Biere von Brauerei zu Brauerei einzigartig und verschieden schmeckten. Die Folge war eine Monopolstellung der Brauereien. Leider wurden im Grut teils hochgiftige, psychoaktive Substanzen verwendet, die dem Endverbraucher Halluzinationen und Vergiftungen bescherten. Die Schuld wurde teils den Brauern selbst zugeschrieben. Da im Mittelalter brauen eine weibliche Kunst war, wurde der Mythos der Brauhexen erfunden und die ungesunden Rauschzustände ihnen zugeschoben. Dieser Mythos einfacherer Erklärungen hielt sich bis 1591 als die letzte Brauhexe verbrannt wurde. Mit dem Reinheitsgebot wurde das Brauverfahren vereinheitlicht und dahingehend verbessert, dass das Endprodukt unbedenklich ohne akute Gesundheitsrisiken (bis heute) zu konsumieren ist. Die Monopolstellung einzelner Brauereien ging dadurch verloren, die sich statt unterschiedlicher Hopfensorten und Dosierungen, auf andere Kräuter spezialisiert hatten.</string>
+    <string name="infobox_textautor_reinheitsgebot">David Hernandez</string>
+    <string name="infobox_textquelle_reinheitsgebot">Heidelore, Kluge: „Die Heilkraft des Bieres“, KOPP Verlag, 2008, München.</string>
+
+    <string name="infobox_texttitle_anstossen">Der Brauch des Anstoßes</string>
+    <string name="infobox_text_anstossen">Das Anstoßen mit zwei Gefäßen in denen Bier ist, ist eine Sitte aus dem Mittelalter. Bierkrüge wurden durch heftiges anstoßen zum überschwappen gebracht, so dass die Biere sich vermischten. Da Attentate oft mit giftigen Getränken verübt wurden, galt das gegenseitige Überschwappen und damit die Vermengung beider oder aller Getränke als Vertrauensbeweis. </string>
+    <string name="infobox_textautor_anstossen">David Hernandez</string>
+    <string name="infobox_textquelle_anstossen">Heidelore, Kluge: „Die Heilkraft des Bieres“, KOPP Verlag, 2008, München.</string>
+
+    <string name="infobox_texttitle_alkoholrausch">Der Alkoholrausch</string>
+    <string name="infobox_text_alkoholrausch">Alkohol wird durch den Blutkreislauf ins Gehirn geleitet und beeinflusst Neurotransmittersysteme. Neurotransmittersysteme sind chemische Kommunikationssysteme, die durch Ausschüttung von Botenstoffen (sog. Neurotransmitter) Signale an Zellen übertragen. Somit wird eine Kommunikation von Zelle zu Zelle angeregt. Diese können dann Gefühle oder Gedanken erzeugen. Durch Alkohol wird der Botenstoff Dopamin freigesetzt, und ruft Glück bzw. Belohnung als Gefühl hervor. Auch GABA, ein Neurotransmitter wird ausgeschüttet, der eine angstlindernde und beruhigende Wirkung hat.</string>
+    <string name="infobox_textautor_alkoholrausch">David Hernandez</string>
+    <string name="infobox_textquelle_alkoholrausch">Heidelore, Kluge: „Die Heilkraft des Bieres“, KOPP Verlag, 2008, München.</string>
+
+<!--
+    <string name="infobox_texttitle_"></string>
+    <string name="infobox_text_"></string>
+    <string name="infobox_textautor_">David Hernandez</string>
+    <string name="infobox_textquelle_"></string>
+-->
+
+</resources>

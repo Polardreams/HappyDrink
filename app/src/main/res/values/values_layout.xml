@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="gooey_menu_btn">30dp</dimen>
+    <dimen name="gooey_submenu_btn">23dp</dimen>
+    <dimen name="gooey_gab_between_menu">80dp</dimen>
+    <dimen name="donut_strich_breite_fin">5dp</dimen>
+    <dimen name="donut_strich_breite_unfin">5dp</dimen>
+
+
+</resources>

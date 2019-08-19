@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/assisstent_titel">
+
+    </PreferenceCategory>
+    <EditTextPreference
+        android:id="@+id/assi_age"
+        android:defaultValue="28"
+        android:key="assi_age"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/assisstent_alter" />
+    <EditTextPreference
+        android:defaultValue="95"
+        android:key="assi_weight"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/assisstent_gewicht" />
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/sex_title"
+        android:entryValues="@array/sex_id"
+        android:key="assi_sex"
+        android:title="@string/assisstent_geschlecht" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="assi_status"
+        android:title="@string/assisstent_status"
+        android:visibility="invisible" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="party_status"
+        android:visibility="invisible" />
+    <EditTextPreference
+        android:id="@+id/party_filename"
+        android:defaultValue="/"
+        android:key="party_filename"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:visibility="invisible" />
+
+    <EditTextPreference
+        android:defaultValue="0"
+        android:key="party_pref_menge"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:visibility="invisible"
+        />
+
+    <EditTextPreference
+        android:defaultValue="0"
+        android:key="party_pref_alk"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:visibility="invisible"
+         />
+
+    <EditTextPreference
+        android:defaultValue="0"
+        android:key="assi_alk_dec"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:visibility="invisible"
+        />
+    <CheckBoxPreference
+        android:id="@+id/promillenachberechnung_id"
+        android:defaultValue="false"
+        android:key="promillenachberechnung_key"
+        android:title="Check box preference"
+        android:visibility="invisible"/>
+<!--
+    <CheckBoxPreference
+        android:id="@+id/rate_id"
+        android:defaultValue="false"
+        android:key="rateflag_key"
+        android:title="Check box preference"
+        android:visibility="invisible"/>
+
+    <EditTextPreference
+        android:defaultValue="0"
+        android:key="interstitial_ad"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:visibility="invisible"
+        />
+        -->
+    <EditTextPreference
+        android:defaultValue="0"
+        android:key="design_key"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:visibility="invisible"
+        />
+    <EditTextPreference
+        android:defaultValue="false"
+        android:key="tutorial_flag"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:visibility="invisible"
+        />
+</PreferenceScreen>

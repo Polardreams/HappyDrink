@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorBlackText">#000000</color>
+    <color name="color_transperent">#80000000</color>
+    <color name="color_transparent">#00000000</color>
+
+
+    <color name="colorPrimary">#84BACE</color>
+    <color name="colorPrimaryDark">#E5E3E6</color>
+    <color name="colorAccent">#f86100</color>
+    <color name="color_display">#fde1c6</color> <!--TextColor-->
+
+    <color name ="colorPrimary1">#A25172</color>
+    <color name ="colorPrimaryDark1">#e90e56</color>
+    <color name ="colorAccent1">#1a7ea4</color>
+    <color name ="colorText1">#faddf0</color>
+
+    <color name ="colorseekbarText1">#faddf0</color>
+
+    <color name ="colorPrimary2">#c3c3c3</color>
+    <color name ="colorPrimaryDark2">#ff0000</color>
+    <color name ="colorAccent2">#ff0000</color>
+    <color name ="colorText2">#000000</color>
+    <color name ="colorTapSequenzCircle">#000000</color>
+    <color name ="colorTapSequenzText">#FFFFFF</color>
+    <color name ="colordonat">#325D6D</color>
+
+
+
+    <!--<color name="color_backround_anzeigen_design_2">#99707070</color> -->
+
+
+</resources>

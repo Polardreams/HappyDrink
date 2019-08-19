@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/menu_update"
+        android:title="@string/menu_akt"
+        />
+    <item
+        android:id="@+id/menu_pers"
+        android:title="@string/menu_pers" />
+    <item
+        android:id="@+id/menu_history"
+        android:title="@string/menu_verlauf" />
+    <item
+        android:id="@+id/menu_nachtrag"
+        android:title="@string/menu_nachtrag" />
+    <item
+        android:id="@+id/menu_lexika"
+        android:title="@string/menu_lexika" />
+    <item
+        android:id="@+id/menu_rate"
+        android:title="@string/rate_title" />
+    <item
+        android:id="@+id/menu_tutorial"
+        android:title="@string/menu_tutorial" />
+    <item
+        android:id="@+id/menu_datenschutz"
+        android:title="@string/menu_datenschutz" />
+    <item
+        android:id="@+id/menu_lizenz"
+        android:title="@string/menu_lizenz" />
+</menu>
